@@ -2,7 +2,9 @@
 
 ## Project setup
 You must have NodeJS (with npm) installed and Vuejs as well
+Then type the following commands before run the project 
 ```
+git clone https://github.com/PaulEdouardLegrand/CinemaClient.git
 cd CinemaClient
 npm install
 ```
