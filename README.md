@@ -1,24 +1,16 @@
 # hello-world
 
 ## Project setup
+You must have NodeJS (with npm) installed and Vuejs as well
 ```
+cd CinemaClient
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Deploy the webApplication
 ```
 npm run serve
 ```
+Now you can connect to the webApplication on the link prompted in ur console 
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Welcome](./pageArrivee.PNG)
