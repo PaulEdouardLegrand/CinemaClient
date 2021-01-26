@@ -2,7 +2,7 @@
 
   <div id="app">
     <h1>Voici les Films disponibles sur notre site</h1>
-    <vue-good-table :columns="columns" :rows="rows" :row-style-class="rowStyleClassFn" :fixed-header="true" :search-options="{enabled: true}" @on-row-dblclick="onRowDoubleClick" >
+    <vue-good-table :columns="columns" :rows="rows" :row-style-class="rowStyleClassFn" :fixed-header="true" :search-options="{enabled: true}" >
     </vue-good-table>
   </div>
 </template>
@@ -92,9 +92,6 @@ export default {
       });
   },
   methods:{
-    onRowDoubleClick (params){
-        this.$router.push({name : "filmsDetails", params: {id: params.row.noFilm}})
-    },
     rowStyleClassFn() {
       return 'VGT-row';
     },
