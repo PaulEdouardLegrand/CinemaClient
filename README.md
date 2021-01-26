@@ -1,4 +1,4 @@
-# hello-world
+# CinemaClient
 
 ## Project setup
 You must have NodeJS (with npm) installed and Vuejs as well
